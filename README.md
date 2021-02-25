@@ -12,7 +12,6 @@
   Mongoose
   Nodemon
   Express-flash
-  Crypto
   Bcrypt
   Passport
   Passport-local
