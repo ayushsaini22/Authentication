@@ -24,3 +24,38 @@
    2. On separate terminal run "nodemon index.js" or "node index.js" to start the server.
    3. The application works on port 8000, so open "http://localhost:8000/index" to get to home page.
    4. To close server press ctrl+c.
+
+## Directory Structure
+```
+Authentication
+├── config                   # DataBase config file
+│   ├── middleware.js
+│   ├── mongoose.js
+│   ├── passport-gauth-strategy.js
+│   ├── passport-google-oauth2-strategy.js
+│   └── passport-local-strategy.js
+├── controller                # Controllers
+│   ├── changeController.js
+│   ├── googleController.js
+│   ├── indexController.js
+│   ├── logoutController.js
+│   ├── signinController.js
+│   └── signupController.js
+├── models                   # DataBase Schemas
+│   ├── user.js
+│   └── userDb.js
+├── node_modules.js
+├── routes                     # Express Router 
+│   ├── changeRouter.js
+│   ├── google.js
+│   ├── indexRouter.js
+│   ├── logoutRouter.js
+│   ├── signinRouter.js
+│   └── signupRouter.js
+├── views                     
+│    └── detailed.ejs
+│    └── index.js
+├── index.js                  # Entry point
+├── package-lock.json    
+└── package.json
+
