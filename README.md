@@ -29,10 +29,8 @@
 ```
 Authentication
 ├── config                   # DataBase config file
-│   ├── middleware.js
 │   ├── mongoose.js
 │   ├── passport-gauth-strategy.js
-│   ├── passport-google-oauth2-strategy.js
 │   └── passport-local-strategy.js
 ├── controller                # Controllers
 │   ├── changeController.js
@@ -42,7 +40,6 @@ Authentication
 │   ├── signinController.js
 │   └── signupController.js
 ├── models                   # DataBase Schemas
-│   ├── user.js
 │   └── userDb.js
 ├── node_modules.js
 ├── routes                     # Express Router 
@@ -53,7 +50,7 @@ Authentication
 │   ├── signinRouter.js
 │   └── signupRouter.js
 ├── views                     
-│    └── detailed.ejs
+│    └── profile.ejs
 │    └── index.js
 ├── index.js                  # Entry point
 ├── package-lock.json    
